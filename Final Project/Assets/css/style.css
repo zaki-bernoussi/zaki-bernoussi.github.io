@@ -1,21 +1,34 @@
+body{
+	background-color: #D29C7E;
+}
+
 .col-lg-4{
 	font-size: 16px;
 	text-decoration-color: black;
 }
 
+.nav-justified{
+	font-size: 18px;
+}
+
 .jumbotron{
-	/*background: black;*/ 
+	background-color: #D29C7E;
+	padding-bottom: 0px;
+	padding-top: 0px;
 }
 
 .background{
   	display: inline-block;
-  	height: 35%;
-  	width: 35%;
- 	background-size: cover;
+  	height: 100%;
+  	width: 100%;
 	overflow: hidden;
 }
 
-div.btn-success{
+.btn-primary{
+	background-color: ##010a81;
+}
+
+.btn-btn-lg-btn-success{
 	border-color: none !important;
 }
 /*attempt at isolating container for background image*/
