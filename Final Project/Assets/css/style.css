@@ -1,31 +1,44 @@
 body{
-	background-color: #D29C7E;
+	background-color: #014a89;
+  font-family: Baskerville; 
 }
 
-#city-type {
-  color: #6b6b6c;
+#city-type{
+  color: black;
   font-size: 38px;
-  background: #fff;
+  background: #f05563; 
   border: 1px solid #111;
   padding: 0px 30px;
   display: inline-block;
-  width: 680px;
+  width: 50%;
   margin-right: 24px;
-  font-family: helvetica, arial, sans-serif;
+  font-family: Baskerville;
   height: 72px;
   line-height: 74px;
   vertical-align: middle;
   box-shadow: #111 0 0 20px;
+  float: left;
 }
 
-.container {
+.container{
   margin: auto;
-  padding-top: 5em;
+}
+
+.h2, h2 {
+  color: #f05563;
+  font-size: 30px;
+}
+/*styling the paragraph text*/
+
+.text-danger {
+  color: #B8C6DD;
 }
 
 .col-lg-4{
+  overflow: hidden;
 	font-size: 16px;
 	text-decoration-color: black;
+  display: block;
 }
 
 .nav-justified{
@@ -33,15 +46,15 @@ body{
 }
 
 .jumbotron{
-	background-color: #D29C7E;
+	background-color: #014a89;
 	padding-bottom: 0px;
 	padding-top: 0px;
 }
 
 .background{
-  	display: inline-block;
-  	height: 100%;
-  	width: 100%;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
 	overflow: hidden;
 }
 
@@ -49,9 +62,14 @@ body{
 	background-color: ##010a81;
 }
 
-.btn-btn-lg-btn-success{
-	border-color: none !important;
+.footer{
+  color: #e5e5e5;
 }
+
+p{
+  color: #B8C6DD;
+}
+
 /*attempt at isolating container for background image*/
 
 /*.container{
