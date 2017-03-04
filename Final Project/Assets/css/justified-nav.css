@@ -89,8 +89,8 @@
   }
   .social{
   display: inline-block;
-  height: 5%;
-  width: 5%;
+  height: 3%;
+  width: 3%;
   float: right;  
   }
 }
@@ -100,6 +100,7 @@
   /* Remove the padding we set earlier */
   .masthead,
   .marketing,
+  .episode-type,
   .footer{
     padding-right: 0;
     padding-left: 0;
@@ -109,15 +110,24 @@
   @media (min-width: 480px) {
   .social{
   display: inline-block;
-  height: 5%;
-  width: 5%;
+  height: 3%;
+  width: 3%;
   float: right;  
   }
+}
   @media (min-width: 280px) {
   .social{
   display: inline-block;
-  height: 5%;
-  width: 5%;
+  height: 3%;
+  width: 3%;
+  float: right;  
+  }
+}  
+  @media (min-width: 80px) {
+  .social{
+  display: inline-block;
+  height: 3%;
+  width: 3%;
   float: right;  
   }
 }

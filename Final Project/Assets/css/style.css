@@ -3,9 +3,9 @@ body{
   font-family: Baskerville; 
 }
 
-#city-type{
+#episode-type{
   color: black;
-  font-size: 38px;
+  font-size: 225%;
   background: #f05563; 
   border: 1px solid #111;
   padding: 0px 30px;
